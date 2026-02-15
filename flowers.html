@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresh Flowers || Nature's Beauty</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 20px;
+    color: white;
+    height: 90px;
+    background: linear-gradient(130deg, #D865D8, #D05678);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  nav button:hover {
+    background-color: #D05678;  
+    color: black;
+    transition: 0.3s;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+  }
+  .buy-btn{
+    padding: 15px 23px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 15px;
+  }
+  .buy-btn:hover{
+    background-color: #D05678;
+    color: black;
+    transform: scale(1.10);
+    
+  }
+  .image{
+    width: 11em;
+    height: 11em;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto;
+  }
+  .image:hover{
+    transform: scale(1.10);
+  }
+  .about{
+    text-align: center;
+  }
+  .about h1{
+    font-size: 45px;
+  }
+  .about p{
+    font-size: 20px;
+  }
+  .flower-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .flower-card p {
+    font-weight: bold;
+    font-size:1.2em;
+    margin: 5px 0;
+    
+  }
+  .flowers{
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  .about{
+    font-weight: bold;
+  }
+  .search{
+    text-align: center;
+    margin: 20px;
+  }
+  .input{
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #D05678;
+  }
+  </style>
+</head>
+
+<body>
+  <main>
+    <article>
+      <nav>
+        <h2>Bringing Nature's Beauty to your Door</h2>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </article>
+    <div class="search">
+      <input type="text" placeholder="Search Kashmiri phool, Rose, Daisy..." class="input">
+    </div>
+  <section>
+    <div class="flowers">
+      <h1>FRESH FLOWERS FOR YOU</h1>
+    </div>
+    <div class="container">
+     <div class="flower-card">
+      <img src="Screenshot_2026_0209_162748.png" class="image" alt="Rose">
+      <p>$4.99</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="flower-card">
+      <img src="Screenshot_2026_0209_162822.png" class="image" alt="white Rose">
+      <p>$3.49</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="flower-card">
+      <img src="Screenshot_2026_0209_162848.png" class="image" alt="Daisy">
+      <p>$2.99</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="flower-card">
+      <img src="Screenshot_2026_0210_103244.png" class="image" alt="Garden Rose">
+      <p>$6.99</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+  </section>
+  </main>
+  <div class="about">
+    <h1>About Us</h1>
+    <p>We will give you Nature's beauty that you cannot decline<br>
+    A Dedicated Boutique team commited to 100% on-time delivery across Delhi, backed by 6+ years of botanical expertise<br>
+    We have sell over 1 lakh flowers and our customers rating is very high we deliever flower in all delhi places Welcome!</p>
+  </div>
+  <footer>© 2026 Fresh Flowers. All rights reserved.</footer>
+  <script>
+    const input = document.querySelector(".input")
+    
+  </script>
+</body>
+
+</html>
